@@ -1,0 +1,12 @@
+# action.yml
+name: 'Run JS in Docker'
+description: 'Print out the data in POST payload'
+inputs:
+  data:  # client_payload in POST
+    description: 'Test data json'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.data }}
