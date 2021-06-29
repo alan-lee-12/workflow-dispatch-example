@@ -2,6 +2,6 @@
 
 // May be able to write the json payload to file, and this JS script can read from it.
 
-const payload = require('payload.json')
+const payload = require('./payload.json')
 
 console.log(`Here's the payload: ${payload}`)

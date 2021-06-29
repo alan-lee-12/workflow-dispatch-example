@@ -19,9 +19,10 @@ jobs:
       - name: Save payload to file system
         run:
           echo ${{ github.event.inputs.name }} > payload.json
+          cat payload.json
       - name: Echo the payload in terminal
         run: |
             echo "Hello ${{ github.event.inputs.name }}!"
             echo "- in ${{ github.event.inputs.home }}!"
       - name: Run JS script
-        run: node index.js
+        run: node ../../index.js
