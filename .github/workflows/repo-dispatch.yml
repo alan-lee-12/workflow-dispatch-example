@@ -18,13 +18,12 @@ jobs:
         run: |
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
             echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
-      - name: Pass request payload to Docker
-        uses: ./ # Use a custom action
-        with:
-          data: 
-            - ${{ github.event.client_payload }} # Get the payload and send to action.yml
-      # - name: Run JS script in Docker
-        # run: |
-            # docker build -t say_hello .
-            # docker run say_hello node index.js
+      # - name: Pass request payload to Docker
+      #   uses: ./
+      #   with:
+      #     data: ${{ github.event.client_payload }} 
+      - name: Run JS script in Docker
+        run: |
+            docker build -t say_hello .
+            docker run say_hello node index.js
 
