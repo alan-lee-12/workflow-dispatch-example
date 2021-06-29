@@ -1,0 +1,25 @@
+name: Log Payload with Repo Dispatch
+
+on:
+  repository_dispatch:
+    types: post_request
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Save 'data' payload to file system
+        run: |
+          echo ${{ github.event.client_payload.data }} > payload.json
+          cat payload.json
+      - name: Echo the payload in terminal
+        run: |
+            echo "Hello, this is ${{ github.event.client_payload.name }}!"
+            echo "${{ github.event.client_payload.data }}"
+      - name: Run JS script in Docker
+        run: |
+            docker build -t say_hello .
+            docker run say_hello node index.js
+
