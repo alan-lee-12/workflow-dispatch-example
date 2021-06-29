@@ -21,7 +21,8 @@ jobs:
       - name: Pass request payload to Docker
         uses: ./ # Use a custom action
         with:
-          data: ${{ github.event.client_payload }} # Get the payload and send to action.yml
+          data: 
+            - ${{ github.event.client_payload }} # Get the payload and send to action.yml
       # - name: Run JS script in Docker
         # run: |
             # docker build -t say_hello .
