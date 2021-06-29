@@ -1,5 +1,3 @@
-FROM node:12.18.2
+FROM node:lts-alpine
 
 COPY . .
-
-RUN node index.js
