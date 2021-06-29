@@ -17,12 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Save payload to file system
-        run:
+        run: |
           echo ${{ github.event.inputs.name }} > payload.json
           cat payload.json
       - name: Echo the payload in terminal
         run: |
             echo "Hello ${{ github.event.inputs.name }}!"
             echo "- in ${{ github.event.inputs.home }}!"
-      - name: Run JS script
-        run: node ../../index.js
+      - name: Run JS script in Docker
+        run: |
+            docker build . -t say_hello
+            docker run say_hello
