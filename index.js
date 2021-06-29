@@ -13,5 +13,12 @@ const apiPayload = context.payload.client_payload
 
 const testData = apiPayload || payloadFromFS
 
+console.log(`What's in the context?: ${context}`)
 console.log(`This is the action used to trigger this worflow: ${action}`)
-console.log(`Here's the test data: ${testData}`)
+// This log is useless as it just prints "[object Object]"
+// console.log(`Here's the test data: ${testData}`)
+
+console.log(`Here are the props in the test data:`)
+Object.entries(testData).forEach((prop) => {
+	console.log(prop, '\n')
+})
