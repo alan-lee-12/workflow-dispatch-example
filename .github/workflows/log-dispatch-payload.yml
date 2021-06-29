@@ -1,0 +1,27 @@
+name: Log Payload
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
+      home:
+        description: 'location'
+        required: false
+        default: 'The Octoverse'
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Save payload to file system
+        run:
+          echo ${{ github.event.inputs.name }} > payload.json
+      - name: Echo the payload in terminal
+        run: |
+            echo "Hello ${{ github.event.inputs.name }}!"
+            echo "- in ${{ github.event.inputs.home }}!"
+      - name: Run JS script
+        run: node index.js
