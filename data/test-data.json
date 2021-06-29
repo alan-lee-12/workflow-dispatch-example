@@ -1,8 +1,5 @@
 {
-	"name": "Eevi",
-	"data": {
-		"scenario": "Preferred",
-		"ask0001": "Fav food?",
-		"answer0001": "chicken"
-	}
+	"scenario": "Preferred",
+	"ask0001": "What??",
+	"answer0001": "nothin'"
 }

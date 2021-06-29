@@ -1,7 +1,7 @@
 // How do I get the payload from the API call that triggers the worflow?
 
 // @reference: https://pakstech.com/blog/github-actions-repository-dispatch/
-const core = require("@actions/core")
+// const core = require("@actions/core")
 const { context } = require("@actions/github");
 const action = context.payload.action;
 // const version = context.payload.client_payload.version;
@@ -13,10 +13,11 @@ Object.entries(context).forEach((prop) => {
 
 // May be able to write the json payload to file, and this JS script can read from it.
 
-const apiPayload = core.getInput('data')
-console.log(`What's apiPayload (did I get input 'data')?: ${apiPayload}`)
+// const apiPayload = core.getInput('data')
+const postPayload = process.env.TEST_DATA
+console.log(`What's postPayload?: ${postPayload}`)
 const payloadFromFS = require('./payload.json')
-const testData = apiPayload || payloadFromFS
+const testData = postPayload || payloadFromFS
 
 console.log(`This is the action used to trigger this worflow: ${action}`)
 // This log is useless as it just prints "[object Object]"

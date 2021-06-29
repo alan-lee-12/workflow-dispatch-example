@@ -23,6 +23,8 @@ jobs:
       #   with:
       #     data: ${{ github.event.client_payload }} 
       - name: Run JS script in Docker
+        env:
+          TEST_DATA: ${{ github.event.client_payload }}
         run: |
             docker build -t say_hello .
             docker run say_hello node index.js
