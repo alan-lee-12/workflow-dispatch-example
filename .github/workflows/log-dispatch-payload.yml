@@ -16,6 +16,8 @@ jobs:
   say_hello:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Save payload to file system
         run: |
           echo ${{ github.event.inputs.name }} > payload.json
