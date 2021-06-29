@@ -1,8 +1,8 @@
 // How do I get the payload from the API call that triggers the worflow?
 
 // @reference: https://pakstech.com/blog/github-actions-repository-dispatch/
-// const core = require("@actions/core")
-const { context } = require("@actions/github");
+// const core = require('@actions/core')
+const { context } = require('@actions/github');
 const action = context.payload.action;
 // const version = context.payload.client_payload.version;
 
