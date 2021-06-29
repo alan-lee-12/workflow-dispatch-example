@@ -12,11 +12,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Save 'data' payload to file system
         run: |
-          echo ${{ github.event.client_payload }} > payload.json
+          ${{ github.event.client_payload }} > payload.json
           cat payload.json
-      - name: Echo the payload in terminal
-        run:
-          echo "${{ github.event.client_payload }}"
       - name: Run JS script in Docker
         run: |
             docker build -t say_hello .
