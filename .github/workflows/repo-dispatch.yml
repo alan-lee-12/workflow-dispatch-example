@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Save 'data' payload to file system
-        run: |
-          ${{ github.event.client_payload }} > payload.json
-          cat payload.json
+      # - name: Save 'data' payload to file system
+        # run: |
+          # ${{ github.event.client_payload }} > payload.json
+          # cat payload.json
       - name: Run JS script in Docker
         run: |
             docker build -t say_hello .
