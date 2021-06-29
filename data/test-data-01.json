@@ -1,5 +1,8 @@
 {
-	"scenario": "Preferred",
-	"ask0001": "Fav food?",
-	"answer0001": "chicken"
+	"eventName": "post_request",
+	"data":	{
+		"scenario": "Preferred",
+		"ask0001": "Fav food?",
+		"answer0001": "chicken"
+	}
 }

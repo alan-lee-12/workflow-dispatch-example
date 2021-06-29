@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alan-lee-12/workflow-dispatch-example#readme",
   "dependencies": {
+    "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0"
   }
 }
