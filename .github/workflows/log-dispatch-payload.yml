@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: 'Person to greet'
+        description: 'Payload owner'
         required: true
-        default: 'Mona the Octocat'
-      home:
-        description: 'location'
-        required: false
-        default: 'The Octoverse'
+        default: 'Pixie the Cat'
+      data:
+        description: 'Test data'
+        required: true
+        default: '{"scenario": "fake_data"}'
 
 jobs:
   say_hello:
@@ -18,14 +18,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Save payload to file system
+      - name: Save 'data' payload to file system
         run: |
-          echo ${{ github.event.inputs.name }} > payload.json
+          echo ${{ github.event.inputs.data }} > payload.json
           cat payload.json
       - name: Echo the payload in terminal
         run: |
-            echo "Hello ${{ github.event.inputs.name }}!"
-            echo "- in ${{ github.event.inputs.home }}!"
+            echo "Hello, this is ${{ github.event.inputs.name }}!"
+            echo "${{ github.event.inputs.data }}"
       - name: Run JS script in Docker
         run: |
             docker build -t say_hello .
