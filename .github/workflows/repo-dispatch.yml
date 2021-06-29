@@ -25,4 +25,4 @@ jobs:
       - name: Run JS script in Docker
         run: |
             docker build -t say_hello .
-            docker run -e TEST_DATA=${{ toJson(github.event.client_payload) }} say_hello node index.js
+            docker run -e "TEST_DATA=${{ toJson(github.event.client_payload) }}" say_hello node index.js
