@@ -26,5 +26,5 @@ jobs:
             echo "- in ${{ github.event.inputs.home }}!"
       - name: Run JS script in Docker
         run: |
-            docker build -f ../../Dockerfile -t say_hello
-            docker run say_hello
+            docker build -f ../../Dockerfile -t say_hello ../../.
+            docker run say_hello node index.js
