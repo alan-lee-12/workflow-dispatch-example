@@ -17,7 +17,7 @@ jobs:
       - name: Echo the payload in terminal
         run: |
             echo "Echo'ing the client_payload: ${{ github.event.client_payload }}"
-            printf "printf: ${{ github.event.client_payload }}"
+            printf "${{ github.event.client_payload }}"
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
             echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       # - name: Pass request payload to Docker
@@ -26,6 +26,6 @@ jobs:
       #     data: ${{ github.event.client_payload }} 
       - name: Run JS script in Docker
         run: |
-            data=${{ github.event.client_payload }}
+            data="${{ github.event.client_payload }}"
             docker build -t say_hello .
             docker run -e TEST_DATA=$data say_hello node index.js
