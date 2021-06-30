@@ -4,7 +4,8 @@ description: 'Print out the data in POST payload in Docker'
 inputs:
   testdata:
     description: 'Test data in json format'
-    required: true
+    required: false
+    default: '{"scenario": "default"}'
 runs:
   using: 'docker'
   image: 'Dockerfile'
