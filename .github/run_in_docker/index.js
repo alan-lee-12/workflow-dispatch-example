@@ -14,15 +14,15 @@ Object.entries(context).forEach((prop) => {
 })
 
 // const apiPayload = core.getInput('data')
-const postPayload = process.env.TEST_DATA
-console.log(`What's postPayload?: ${postPayload}`)
-const payloadFromFS = require('./payload.json')
-const testData = postPayload || payloadFromFS
+// const postPayload = process.env.TEST_DATA
+// console.log(`What's postPayload?: ${postPayload}`)
+// const payloadFromFS = require('./payload.json')
+// const testData = postPayload || payloadFromFS
 
 // This log is useless as it just prints "[object Object]"
 // console.log(`Here's the test data: ${testData}`)
 
-console.log(`Here are the props in the test data:`)
-Object.entries(testData).forEach((prop) => {
-	console.log(prop, '\n')
-})
+// console.log(`Here are the props in the test data:`)
+// Object.entries(testData).forEach((prop) => {
+// 	console.log(prop, '\n')
+// })

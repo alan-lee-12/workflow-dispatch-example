@@ -1,16 +1,15 @@
-# action.yml
+# My custom action
 name: 'Run JS in Docker'
 description: 'Print out the data in POST payload in Docker'
-inputs:
-  testdata:
-    description: 'Test data in json format'
-    required: false
-    default: '{"scenario": "default"}'
+# `inputs` not needed. See comments in workflow file.
+# inputs:
+#   testdata:
+#     description: 'Test data in json format'
+#     required: false
+#     default: '{"scenario": "default"}'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.testdata }}
 
 # Example from GH
 # name: 'Hello World'

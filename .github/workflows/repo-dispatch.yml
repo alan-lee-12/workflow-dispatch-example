@@ -10,27 +10,17 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      # - name: Save payload to file system
-      #   run: |
-      #     ${{ github.event.client_payload }} > payload.json
-      #     cat payload.json
-      # - name: Echo the payload in terminal
-      #   run: |
-      #       echo "Hello, this is payload: ${{ github.event.client_payload }}"
-      #       echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
-      #       echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
+      - name: Echo the payload in terminal
+        run: |
+            echo "Hello, this is payload: ${{ github.event.client_payload }}"
+            echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
+            echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       - name: Use custom action to run Docker
         uses: ./.github/run_in_docker
         # with:
-          # this line kept getting "A mapping was not expected" error
+          # this line kept getting "A mapping was not expected" error (* See comments at bottom)
           # testdata: ${{ github.event.client_payload }} 
-          # Try with.args...
-          # args: ${{ github.event.client_payload }} 
             
-
-
-      # - name: Run JS script in Docker
-      #   run: |
-      #       data="${{ github.event.client_payload }}"
-      #       docker build -t say_hello .
-      #       docker run -e TEST_DATA=$data say_hello node index.js
+# * Turned out for my use I didn't need to pass any input params. I just needed to access
+# payload inside `context`. So I ended up just not using the `with` key and its mapping
+# and didn't bother looking into the annoying "mapping not expected" error ✌️.
