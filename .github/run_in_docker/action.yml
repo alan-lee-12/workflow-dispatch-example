@@ -2,14 +2,14 @@
 name: 'Run JS in Docker'
 description: 'Print out the data in POST payload in Docker'
 inputs:
-  data:
+  testdata:
     description: 'Test data in json format'
     required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.data }}
+    - ${{ inputs.testdata }}
 
 # Example from GH
 # name: 'Hello World'

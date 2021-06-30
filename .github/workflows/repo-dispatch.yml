@@ -23,9 +23,9 @@ jobs:
         uses: ./.github/run_in_docker
         with:
           # this line kept getting "A mapping was not expected" error
-          data: ${{ github.event.client_payload }} 
+          testdata: ${{ github.event.client_payload }} 
           # Try with.args...
-          args: ${{ github.event.client_payload }} 
+          # args: ${{ github.event.client_payload }} 
             
 
 
