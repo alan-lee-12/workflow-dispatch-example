@@ -1,7 +1,12 @@
 FROM node:lts-alpine
 
-COPY . .
+# Lines below are copied from run_tests/Dockerfile
+WORKDIR /action
 
-RUN npm i
+COPY package.json .
+COPY package-lock.json .
+COPY index.ts .
 
-RUN node index.js
+RUN npm install
+
+ENTRYPOINT ["npm", "--prefix=/action", "run", "start"]

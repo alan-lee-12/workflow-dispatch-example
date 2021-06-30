@@ -6,12 +6,12 @@ const { context } = require('@actions/github');
 const action = context.payload.action;
 // const version = context.payload.client_payload.version;
 
+console.log(`This is the action used to trigger this worflow: ${action}`)
+
 console.log(`What's in the context?:`)
 Object.entries(context).forEach((prop) => {
 	console.log(prop, '\n')
 })
-
-// May be able to write the json payload to file, and this JS script can read from it.
 
 // const apiPayload = core.getInput('data')
 const postPayload = process.env.TEST_DATA
@@ -19,7 +19,6 @@ console.log(`What's postPayload?: ${postPayload}`)
 const payloadFromFS = require('./payload.json')
 const testData = postPayload || payloadFromFS
 
-console.log(`This is the action used to trigger this worflow: ${action}`)
 // This log is useless as it just prints "[object Object]"
 // console.log(`Here's the test data: ${testData}`)
 

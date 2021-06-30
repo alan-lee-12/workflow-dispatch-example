@@ -19,9 +19,8 @@ jobs:
             echo "Hello, this is payload: ${{ github.event.client_payload }}"
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
             echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
-      # Try using a custom action to run Docker
-      - name: Pass request payload to Docker
-        uses: ./
+      - name: Use custom action to run Docker
+        uses: ./.github/run_in_docker
         with:
           data: ${{ github.event.client_payload }} 
 

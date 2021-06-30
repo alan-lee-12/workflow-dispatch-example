@@ -1,8 +1,8 @@
 # action.yml
 name: 'Run JS in Docker'
-description: 'Print out the data in POST payload'
+description: 'Print out the data in POST payload in Docker'
 inputs:
-  data:  # client_payload in POST
+  data:
     description: 'Test data json'
     required: true
 runs:
