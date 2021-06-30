@@ -16,14 +16,17 @@ jobs:
       #     cat payload.json
       - name: Echo the payload in terminal
         run: |
+            echo "Hello, this is payload: ${{ github.event.client_payload }}"
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
             echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
-      # - name: Pass request payload to Docker
-      #   uses: ./
-      #   with:
-      #     data: ${{ github.event.client_payload }} 
-      - name: Run JS script in Docker
-        run: |
-            data="${{ github.event.client_payload }}"
-            docker build -t say_hello .
-            docker run -e TEST_DATA=$data say_hello node index.js
+      # Try using a custom action to run Docker
+      - name: Pass request payload to Docker
+        uses: ./
+        with:
+          data: ${{ github.event.client_payload }} 
+
+      # - name: Run JS script in Docker
+      #   run: |
+      #       data="${{ github.event.client_payload }}"
+      #       docker build -t say_hello .
+      #       docker run -e TEST_DATA=$data say_hello node index.js
