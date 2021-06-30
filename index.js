@@ -14,7 +14,7 @@ Object.entries(context).forEach((prop) => {
 // May be able to write the json payload to file, and this JS script can read from it.
 
 // const apiPayload = core.getInput('data')
-const postPayload = process.env.TEST_DATA
+const postPayload = JSON.stringify(process.env.TEST_DATA)
 console.log(`What's postPayload?: ${postPayload}`)
 const payloadFromFS = require('./payload.json')
 const testData = postPayload || payloadFromFS

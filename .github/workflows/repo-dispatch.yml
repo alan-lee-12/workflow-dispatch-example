@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Save payload to file system
-        run: |
-          ${{ github.event.client_payload }} > payload.json
-          cat payload.json
+      # - name: Save payload to file system
+      #   run: |
+      #     ${{ github.event.client_payload }} > payload.json
+      #     cat payload.json
       - name: Echo the payload in terminal
         run: |
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
