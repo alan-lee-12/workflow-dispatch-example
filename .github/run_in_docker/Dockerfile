@@ -5,7 +5,7 @@ WORKDIR /action
 
 COPY package.json .
 COPY package-lock.json .
-COPY index.ts .
+COPY index.js .
 
 RUN npm install
 

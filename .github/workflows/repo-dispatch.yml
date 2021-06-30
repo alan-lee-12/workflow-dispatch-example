@@ -21,9 +21,9 @@ jobs:
       #       echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       - name: Use custom action to run Docker
         uses: ./.github/run_in_docker
-        with:
+        # with:
           # this line kept getting "A mapping was not expected" error
-          testdata: ${{ github.event.client_payload }} 
+          # testdata: ${{ github.event.client_payload }} 
           # Try with.args...
           # args: ${{ github.event.client_payload }} 
             
