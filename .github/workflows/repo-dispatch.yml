@@ -14,11 +14,11 @@ jobs:
       #   run: |
       #     ${{ github.event.client_payload }} > payload.json
       #     cat payload.json
-      - name: Echo the payload in terminal
-        run: |
-            echo "Hello, this is payload: ${{ github.event.client_payload }}"
-            echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
-            echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
+      # - name: Echo the payload in terminal
+      #   run: |
+      #       echo "Hello, this is payload: ${{ github.event.client_payload }}"
+      #       echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
+      #       echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       - name: Use custom action to run Docker
         uses: ./.github/run_in_docker/action.yml
         with:
