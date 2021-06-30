@@ -10,14 +10,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      # - name: Save 'data' payload to file system
-        # run: |
-          # ${{ github.event.client_payload }} > payload.json
-          # cat payload.json
+      - name: Save payload to file system
+        run: |
+          ${{ github.event.client_payload }} > payload.json
+          cat payload.json
       - name: Echo the payload in terminal
         run: |
-            echo "Echo'ing the client_payload: ${{ github.event.client_payload }}"
-            printf "${{ github.event.client_payload }}"
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
             echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       # - name: Pass request payload to Docker
