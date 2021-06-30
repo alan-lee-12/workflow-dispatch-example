@@ -3,10 +3,27 @@ name: 'Run JS in Docker'
 description: 'Print out the data in POST payload in Docker'
 inputs:
   data:
-    description: 'Test data json'
+    description: 'Test data in json format'
     required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.data }}
+
+# Example from GH
+# name: 'Hello World'
+# description: 'Greet someone and record the time'
+# inputs:
+#   who-to-greet:  # id of input
+#     description: 'Who to greet'
+#     required: true
+#     default: 'World'
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
+# runs:
+#   using: 'docker'
+#   image: 'Dockerfile'
+#   args:
+#     - ${{ inputs.who-to-greet }}

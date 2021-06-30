@@ -22,7 +22,12 @@ jobs:
       - name: Use custom action to run Docker
         uses: ./.github/run_in_docker
         with:
+          # this line kept getting "A mapping was not expected" error
           data: ${{ github.event.client_payload }} 
+          # Try with.args...
+          args: ${{ github.event.client_payload }} 
+            
+
 
       # - name: Run JS script in Docker
       #   run: |
