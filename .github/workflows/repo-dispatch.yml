@@ -2,7 +2,7 @@ name: Log Payload with Repo Dispatch
 
 on:
   repository_dispatch:
-    types: post_request
+    types: [post_request, test_event]
 
 jobs:
   say_hello:
@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Echo github.event.types
+        run: |
+            echo ${{ github.event.types }}
       - name: Echo the payload in terminal
         run: |
             echo "Hello, this is payload: ${{ github.event.client_payload }}"
