@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Echo github.event.types
         run: |
-            echo "Here's the event_type: ${{ github.event.type }}"
+            echo "Here's the event_type (action): ${{ github.event.client_payload.action }}"
       - name: Echo the payload in terminal
         run: |
             echo "Hello, this is payload: ${{ github.event.client_payload }}"
