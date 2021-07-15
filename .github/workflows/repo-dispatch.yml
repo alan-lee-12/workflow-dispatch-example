@@ -12,12 +12,11 @@ jobs:
         uses: actions/checkout@v2
       - name: Echo github.event.types
         run: |
-            echo ${{ github.event.event_type }}
+            echo "Here's the event_type: ${{ github.event.event_type }}"
       - name: Echo the payload in terminal
         run: |
             echo "Hello, this is payload: ${{ github.event.client_payload }}"
             echo "Hello, this is the scenario: ${{ github.event.client_payload.scenario }}"
-            echo "Here's an Ask: ${{ github.event.client_payload.ask0001 }}"
       - name: Use custom action to run Docker
         uses: ./.github/run_in_docker
         # with:
