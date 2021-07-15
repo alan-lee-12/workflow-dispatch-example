@@ -26,20 +26,21 @@ jobs:
 
 ####################################################
 # Testing whether I can have multiple distinct workflow logic that depends on `types`
-on:
-  repository_dispatch:
-    types: test_event
+### DIDN'T WORK
+# on:
+#   repository_dispatch:
+#     types: test_event
 
-jobs:
-  say_hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Echo the payload in terminal
-        run: |
-            echo "Hello, this is the test_event"
-            echo "Hello, this is payload: ${{ github.event.client_payload }}"
+# jobs:
+#   say_hello:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Echo the payload in terminal
+#         run: |
+#             echo "Hello, this is the test_event"
+#             echo "Hello, this is payload: ${{ github.event.client_payload }}"
             
 # * Turned out for my use I didn't need to pass any input params. I just needed to access
 # payload inside `context`. So I ended up just not using the `with` key and its mapping
