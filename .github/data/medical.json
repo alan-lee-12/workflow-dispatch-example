@@ -1,0 +1,2750 @@
+{
+  "uuid": "3f68c89a-6e91-43a1-aa5c-2c63b06b55c8",
+  "interviewUUID": "0044544f-3d5f-4f88-85a7-3cff526e31ab",
+  "id": 3360,
+  "interviewJourney": {
+    "asked": [
+      {
+        "uuid": "3a2a4028-0f6e-4fca-8347-05a6250cfec6",
+        "answered": [],
+        "userAnswers": [
+          {
+            "answerId": 89322,
+            "answerUuid": "61029866-8b3c-453b-a4ee-495ef3d7a2e5",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "BASICS",
+            "questionUuid": "3a2a4028-0f6e-4fca-8347-05a6250cfec6",
+            "userInterviewId": 3360,
+            "questionText": "What is your height?",
+            "questionType": "UNITIZED",
+            "answerText": null,
+            "answerValue": "5ft9in",
+            "answerMetadata": {
+              "feet": "5",
+              "inches": "9"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "person.height",
+              "type": "FACT",
+              "id": 220,
+              "rulesEngineId": 7050
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "cee5a796-86c1-4b94-9324-f188bae5699b",
+        "answered": [],
+        "userAnswers": [
+          {
+            "answerId": 89323,
+            "answerUuid": "bd18b76d-670f-42ab-943d-3c8ed257d471",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "BASICS",
+            "questionUuid": "cee5a796-86c1-4b94-9324-f188bae5699b",
+            "userInterviewId": 3360,
+            "questionText": "What is your weight?",
+            "questionType": "UNITIZED",
+            "answerText": null,
+            "answerValue": "155",
+            "answerMetadata": {
+              "unit": "pounds"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "person.weight",
+              "type": "FACT",
+              "id": 221,
+              "rulesEngineId": 7051
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "1044ef0c-7301-468c-a367-5600e7003a04",
+        "choices": {
+          "19ca315d-8a79-4018-942c-2572a08a1ed5": {
+            "linkedAsks": []
+          },
+          "288c86ab-bec0-4148-a157-dd1231d9e990": {
+            "linkedAsks": [
+              "14435c40-3cf4-4ff4-82c7-9b63334d4ca0",
+              "13c5bce5-f60d-4810-98a5-2a3c038e329d"
+            ]
+          }
+        },
+        "answered": [
+          "19ca315d-8a79-4018-942c-2572a08a1ed5"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89324,
+            "answerUuid": "cd27f95f-1f30-4ef1-bc70-cbae498f397f",
+            "inactive": null,
+            "askAnswerUuid": "19ca315d-8a79-4018-942c-2572a08a1ed5",
+            "askSection": "BASICS",
+            "questionUuid": "1044ef0c-7301-468c-a367-5600e7003a04",
+            "userInterviewId": 3360,
+            "questionText": "Has your weight increased or decreased by more than 20 pounds in the past year?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "88513649-2780-4b30-bc53-8d420ef294e6",
+        "choices": {
+          "0687c258-3e80-4cab-b7eb-63b05e6ad933": {
+            "linkedAsks": []
+          },
+          "2ed69f58-2e5d-4408-9135-c0476957ee45": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          },
+          "3c365626-d18c-4965-97ff-2479225a8320": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          },
+          "9c0743fb-de83-47f4-bcd0-656757668a71": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          },
+          "a0964c70-7a3c-48e6-abb7-9e44d6359a52": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          },
+          "a7e56f30-585f-4f16-a1a6-c1cb70731581": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          },
+          "ce146cb4-d892-4adc-be70-ea60f8e495a9": {
+            "linkedAsks": [],
+            "questionnaire": "Tobacco Usage"
+          }
+        },
+        "answered": [
+          "0687c258-3e80-4cab-b7eb-63b05e6ad933"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89325,
+            "answerUuid": "b1cac3f4-d6e7-45dd-a85e-13a34e1d8675",
+            "inactive": null,
+            "askAnswerUuid": "0687c258-3e80-4cab-b7eb-63b05e6ad933",
+            "askSection": "BASICS",
+            "questionUuid": "88513649-2780-4b30-bc53-8d420ef294e6",
+            "userInterviewId": 3360,
+            "questionText": "Which nicotine products do you use or have used?",
+            "questionType": "CHECK_BOX",
+            "answerText": "I have never used tobacco products",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "fb1dc770-2349-49ec-96ab-51d1d70a7b25",
+        "choices": {
+          "002a5d33-43f9-4332-b28b-e63c0ea23c25": {
+            "linkedAsks": []
+          },
+          "1e05701b-5a7d-4b0b-b393-4918d3ad7d91": {
+            "linkedAsks": []
+          },
+          "378f8248-7865-413c-990b-8f55d196f73e": {
+            "linkedAsks": []
+          },
+          "457096ae-0c6d-44e1-9b56-d82ca4019138": {
+            "linkedAsks": []
+          },
+          "91ccee4b-c74d-4ae1-9a87-3137c21ead3a": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "378f8248-7865-413c-990b-8f55d196f73e"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89331,
+            "answerUuid": "4e54a961-1e3b-4a18-8dcc-fbb585a09b52",
+            "inactive": null,
+            "askAnswerUuid": "378f8248-7865-413c-990b-8f55d196f73e",
+            "askSection": "FINANCIAL",
+            "questionUuid": "fb1dc770-2349-49ec-96ab-51d1d70a7b25",
+            "userInterviewId": 3360,
+            "questionText": "What is your marital status?",
+            "questionType": "RADIO",
+            "answerText": "Single",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "maritalStatus",
+              "type": "FACT",
+              "id": 8490,
+              "rulesEngineId": 7083
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "947fe460-f465-4440-8310-0282c5826b01",
+        "choices": {
+          "69fe9ec1-68e6-4d3d-91ba-4daa4fd6e316": {
+            "linkedAsks": [],
+            "questionnaire": "Student"
+          },
+          "6ce01f29-2bf8-45b4-9703-fc425933f588": {
+            "linkedAsks": [
+              "d091e6de-f4f5-4dbe-909a-af59599a2df1"
+            ]
+          },
+          "9135ab66-75e9-4877-af1e-17c7b1dad5c6": {
+            "linkedAsks": [
+              "b19a1515-4b49-4835-ba91-06228131a796"
+            ]
+          },
+          "9b85cfd5-2355-4bab-97cb-791464f1a1dc": {
+            "linkedAsks": [
+              "ee70feb3-b435-40bd-be01-809322efb4c6",
+              "25358373-300e-4d3e-9851-d017e2414dd9",
+              "7eb4c988-970c-4b9d-b2be-2e01fdcdb99b",
+              "906aa39f-fa0d-47c4-aee2-f3cde31c7b0f",
+              "b3fa1f5a-c027-4932-ac28-bf724b127c70"
+            ],
+            "questionnaire": "Retired"
+          },
+          "b200c5d2-c549-4a1c-b5e0-6be1b5bdfda5": {
+            "linkedAsks": [],
+            "questionnaire": "Homemaker"
+          },
+          "f77a04a4-4b2a-4243-928b-493a33c213af": {
+            "linkedAsks": [],
+            "questionnaire": "Unemployed"
+          }
+        },
+        "answered": [
+          "9b85cfd5-2355-4bab-97cb-791464f1a1dc"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89332,
+            "answerUuid": "861dc10b-08d9-4077-9acb-49a3f912b209",
+            "inactive": null,
+            "askAnswerUuid": "9b85cfd5-2355-4bab-97cb-791464f1a1dc",
+            "askSection": "FINANCIAL",
+            "questionUuid": "947fe460-f465-4440-8310-0282c5826b01",
+            "userInterviewId": 3360,
+            "questionText": "What is your current employment status:",
+            "questionType": "RADIO",
+            "answerText": "Retired",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": {
+              "value": "Retired",
+              "type": "FACT",
+              "id": 241
+            },
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "ee70feb3-b435-40bd-be01-809322efb4c6",
+        "answered": [],
+        "breadcrumbs": "Retired",
+        "userAnswers": [
+          {
+            "answerId": 89333,
+            "answerUuid": "b13621e2-9e88-4d42-84e2-cb24e3420bc2",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "Retired",
+            "questionUuid": "ee70feb3-b435-40bd-be01-809322efb4c6",
+            "userInterviewId": 3360,
+            "questionText": "When did you retire?",
+            "questionType": "DATE",
+            "answerText": null,
+            "answerValue": "03/2020",
+            "answerMetadata": {
+              "dateFormat": "MM/YYYY",
+              "breadcrumbs": "Retired"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "startDate",
+              "type": "KEY",
+              "id": 563,
+              "rulesEngineId": 271
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "25358373-300e-4d3e-9851-d017e2414dd9",
+        "choices": {
+          "507c955b-447a-4fb2-af59-79ae53064441": {
+            "linkedAsks": [
+              "941772c8-6adc-43bf-838d-9a6e0bfa44f4"
+            ]
+          },
+          "c7cab3e7-3f1d-45ad-9bfa-742a3483b69d": {
+            "linkedAsks": []
+          },
+          "e28cf1af-26c2-4f58-981e-4976819ace25": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "e28cf1af-26c2-4f58-981e-4976819ace25"
+        ],
+        "breadcrumbs": "Retired",
+        "userAnswers": [
+          {
+            "answerId": 89339,
+            "answerUuid": "cf7ede19-8a83-4ecf-94f5-ab25deb64e53",
+            "inactive": null,
+            "askAnswerUuid": "e28cf1af-26c2-4f58-981e-4976819ace25",
+            "askSection": "Retired",
+            "questionUuid": "25358373-300e-4d3e-9851-d017e2414dd9",
+            "userInterviewId": 3360,
+            "questionText": "What is the reason for your retirement prior to age 55?",
+            "questionType": "RADIO",
+            "answerText": "Due to medical conditions or injury",
+            "answerValue": null,
+            "answerMetadata": {
+              "breadcrumbs": "Retired"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "retirementReason",
+              "type": "KEY",
+              "id": 8497,
+              "rulesEngineId": 409
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "7eb4c988-970c-4b9d-b2be-2e01fdcdb99b",
+        "answered": [],
+        "breadcrumbs": "Retired",
+        "userAnswers": [
+          {
+            "answerId": 89340,
+            "answerUuid": "1ef1ccea-ee97-4fc6-8874-d7ec9575abbd",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "Retired",
+            "questionUuid": "7eb4c988-970c-4b9d-b2be-2e01fdcdb99b",
+            "userInterviewId": 3360,
+            "questionText": "What is your total annual pre-tax household income?",
+            "questionType": "NUMERIC",
+            "answerText": null,
+            "answerValue": "50000",
+            "answerMetadata": {
+              "breadcrumbs": "Retired"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "annualHouseholdIncome",
+              "type": "KEY",
+              "id": 203,
+              "rulesEngineId": 73
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "906aa39f-fa0d-47c4-aee2-f3cde31c7b0f",
+        "choices": {
+          "16878bfe-fb7f-4c21-8d65-3df1d9e021b5": {
+            "linkedAsks": [
+              "fc8b27dd-1805-4138-becc-6db68571c43f"
+            ]
+          },
+          "99100235-8010-4d5f-a7d7-641069372ad7": {
+            "linkedAsks": []
+          },
+          "a1b1e448-c490-4775-8226-dbb4fcc44048": {
+            "linkedAsks": [
+              "acbc2b7d-adde-4bc5-9da0-1ef624a16274"
+            ]
+          }
+        },
+        "answered": [
+          "99100235-8010-4d5f-a7d7-641069372ad7"
+        ],
+        "breadcrumbs": "Retired",
+        "userAnswers": [
+          {
+            "answerId": 89341,
+            "answerUuid": "b2e0621d-96d7-41b1-9eeb-c579ed12fcf6",
+            "inactive": null,
+            "askAnswerUuid": "99100235-8010-4d5f-a7d7-641069372ad7",
+            "askSection": "Retired",
+            "questionUuid": "906aa39f-fa0d-47c4-aee2-f3cde31c7b0f",
+            "userInterviewId": 3360,
+            "questionText": "Does your spouse or partner have life insurance in force? ",
+            "questionType": "RADIO",
+            "answerText": "I don't have a spouse or partner",
+            "answerValue": null,
+            "answerMetadata": {
+              "breadcrumbs": "Retired"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "b3fa1f5a-c027-4932-ac28-bf724b127c70",
+        "answered": [],
+        "breadcrumbs": "Retired",
+        "userAnswers": [
+          {
+            "answerId": 89342,
+            "answerUuid": "29d1b4ed-dddd-4002-9ea7-2c3cd70fe2cd",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "Retired",
+            "questionUuid": "b3fa1f5a-c027-4932-ac28-bf724b127c70",
+            "userInterviewId": 3360,
+            "questionText": "What is the total number of dependents in your household?",
+            "questionType": "NUMERIC",
+            "answerText": null,
+            "answerValue": "0",
+            "answerMetadata": {
+              "breadcrumbs": "Retired"
+            },
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "294ebcd4-66a3-4c8e-83fd-5e6c6e92f9cd",
+        "answered": [],
+        "userAnswers": [
+          {
+            "answerId": 89343,
+            "answerUuid": "10414f71-8242-4dd7-acbe-17a8b38dd232",
+            "inactive": null,
+            "askAnswerUuid": null,
+            "askSection": "FINANCIAL",
+            "questionUuid": "294ebcd4-66a3-4c8e-83fd-5e6c6e92f9cd",
+            "userInterviewId": 3360,
+            "questionText": "What is your annual pre-tax income?",
+            "questionType": "NUMERIC",
+            "answerText": null,
+            "answerValue": "50000",
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": {
+              "value": "person.estimatedSalary",
+              "type": "FACT",
+              "id": 244,
+              "rulesEngineId": 9824
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "0cc803e3-73eb-45ad-a170-90210b342412",
+        "choices": {
+          "a1de8f4c-c878-4a68-9b9e-309755e8b9a6": {
+            "linkedAsks": []
+          },
+          "fb7e3f8c-f219-4df9-9eb4-c87dcd4ec0f3": {
+            "linkedAsks": [],
+            "questionnaire": "Bankruptcy"
+          }
+        },
+        "answered": [
+          "a1de8f4c-c878-4a68-9b9e-309755e8b9a6"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89344,
+            "answerUuid": "486d528a-efc2-42f6-ae13-6e6424f5b09d",
+            "inactive": null,
+            "askAnswerUuid": "a1de8f4c-c878-4a68-9b9e-309755e8b9a6",
+            "askSection": "FINANCIAL",
+            "questionUuid": "0cc803e3-73eb-45ad-a170-90210b342412",
+            "userInterviewId": 3360,
+            "questionText": "Have you filed bankruptcy in the past 5 years?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "ebcac637-bbe6-41c6-ae7b-2746fd90c871",
+        "choices": {
+          "6d4a2db3-b9eb-44a8-bf89-aafaa34cea19": {
+            "linkedAsks": []
+          },
+          "fec24468-574f-485b-9e53-986ddd77e42a": {
+            "linkedAsks": [
+              "99f92f25-f8fa-48ca-a0b6-eee22099ff85"
+            ]
+          }
+        },
+        "answered": [
+          "6d4a2db3-b9eb-44a8-bf89-aafaa34cea19"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89345,
+            "answerUuid": "e848ae9e-7616-4945-b927-3d1eca110bab",
+            "inactive": null,
+            "askAnswerUuid": "6d4a2db3-b9eb-44a8-bf89-aafaa34cea19",
+            "askSection": "FINANCIAL",
+            "questionUuid": "ebcac637-bbe6-41c6-ae7b-2746fd90c871",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 12 months have you been unable to work for more than 30 consecutive days due to illness or injury?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "478e71ac-7d43-4206-8336-0959145f6a4a",
+        "skipped": true,
+        "answered": []
+      },
+      {
+        "uuid": "96f8cfac-376a-49a2-a33d-a3fd717fce4e",
+        "choices": {
+          "3fab4bdb-70f8-454c-bee0-7a1892936b4b": {
+            "linkedAsks": [
+              "9b40b532-9cd1-4fb5-bd55-c5428d86e16f"
+            ]
+          },
+          "6de60b61-e08d-4e57-9136-7ef0dc67cb71": {
+            "linkedAsks": [
+              "cac904b0-98d5-48c5-b978-1a13803c92a6",
+              "f73a4fa9-ad14-4621-992f-946b1d5ab407",
+              "6088a674-856b-40ad-a5b4-1888377da9ce",
+              "7ea837c0-c6e0-47b5-bd8d-fddcd93c6a99"
+            ]
+          },
+          "6e00eadc-5776-4f61-ae88-8c295bd135b7": {
+            "linkedAsks": [
+              "1cb3007c-5e07-4ebd-8332-ac5a599d9d6b"
+            ]
+          },
+          "bdf7fb45-27ee-4c01-a89f-06199c5b9e73": {
+            "linkedAsks": [
+              "f22923ea-c978-456f-86d1-d1b4b2b6a056"
+            ]
+          },
+          "c0e62090-1c0e-4122-9047-0b4c6e070f2d": {
+            "linkedAsks": []
+          },
+          "c2cee16a-b924-476a-951f-027f28bfbce3": {
+            "linkedAsks": []
+          },
+          "da746092-530a-4574-9ded-6f19194456ec": {
+            "linkedAsks": [
+              "517311a7-531f-419c-83c1-02c728ef130f"
+            ]
+          },
+          "ea344668-5d64-435f-a2ac-4e2d7ce81284": {
+            "linkedAsks": [
+              "95d90a4d-0caf-4350-b2c3-b49f6957c9a8"
+            ]
+          }
+        },
+        "answered": [
+          "c0e62090-1c0e-4122-9047-0b4c6e070f2d"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89346,
+            "answerUuid": "c1e1055c-279b-40b6-ab86-903780ceb5b9",
+            "inactive": null,
+            "askAnswerUuid": "c0e62090-1c0e-4122-9047-0b4c6e070f2d",
+            "askSection": "AVOCATIONS",
+            "questionUuid": "96f8cfac-376a-49a2-a33d-a3fd717fce4e",
+            "userInterviewId": 3360,
+            "questionText": "Have you in the past 2 years, or do you plan in the next year, to participate in any of the following?",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "5bd4ba36-6312-4729-ab76-05f005407fb4",
+        "choices": {
+          "20bebde7-a729-4868-a38a-2b92adb386c4": {
+            "linkedAsks": []
+          },
+          "c60c010b-33e5-4d69-abd5-eb2a6979991a": {
+            "linkedAsks": [],
+            "questionnaire": "Military Occupation"
+          }
+        },
+        "answered": [
+          "20bebde7-a729-4868-a38a-2b92adb386c4"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89347,
+            "answerUuid": "1be62257-47e5-4bd4-b94e-58623bd7012d",
+            "inactive": null,
+            "askAnswerUuid": "20bebde7-a729-4868-a38a-2b92adb386c4",
+            "askSection": "AVOCATIONS",
+            "questionUuid": "5bd4ba36-6312-4729-ab76-05f005407fb4",
+            "userInterviewId": 3360,
+            "questionText": "Are you or have you agreed to become a member of the armed forces including the National Guard or Reserves? ",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "3d8b953c-3682-4493-88eb-ae4a6dd0e3aa",
+        "choices": {
+          "451c4e04-8695-418e-9f6b-2dc79380f3b7": {
+            "linkedAsks": [
+              "e12fdc54-979b-4f3d-bf8d-6d55f6f56968"
+            ]
+          },
+          "be00d79e-7d43-4705-860d-bf6c64526e0b": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "be00d79e-7d43-4705-860d-bf6c64526e0b"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89348,
+            "answerUuid": "84be9849-2823-4746-a6f8-0096b92f6d54",
+            "inactive": null,
+            "askAnswerUuid": "be00d79e-7d43-4705-860d-bf6c64526e0b",
+            "askSection": "AVOCATIONS",
+            "questionUuid": "3d8b953c-3682-4493-88eb-ae4a6dd0e3aa",
+            "userInterviewId": 3360,
+            "questionText": "Are you planning to travel or live outside of the US or Canada within the next 2 years?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "3aa88df0-1184-40db-a1f6-744db82de8a9",
+        "choices": {
+          "6ccbc2a2-757d-4586-b8d7-cf53b1fcca39": {
+            "linkedAsks": []
+          },
+          "c4a36ce7-cdac-4833-bd78-bcfad34b3e00": {
+            "linkedAsks": [],
+            "questionnaire": "Alcohol Use"
+          }
+        },
+        "answered": [
+          "6ccbc2a2-757d-4586-b8d7-cf53b1fcca39"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89349,
+            "answerUuid": "b4d1b56e-5357-40f5-bc70-1bd8d0470895",
+            "inactive": null,
+            "askAnswerUuid": "6ccbc2a2-757d-4586-b8d7-cf53b1fcca39",
+            "askSection": "HABITS HISTORY",
+            "questionUuid": "3aa88df0-1184-40db-a1f6-744db82de8a9",
+            "userInterviewId": 3360,
+            "questionText": "Do you consume alcohol?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "1ca03b33-c115-4b9a-aff0-a48ac063503a",
+        "choices": {
+          "63a7ab6c-29f2-4637-8deb-aa87553322fb": {
+            "linkedAsks": [],
+            "questionnaire": "Marijuana Usage"
+          },
+          "96c331da-057e-47a5-a6e5-d0cde4ff140b": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "96c331da-057e-47a5-a6e5-d0cde4ff140b"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89350,
+            "answerUuid": "2e9f0912-8933-4d2f-b41c-19b077f6fa43",
+            "inactive": null,
+            "askAnswerUuid": "96c331da-057e-47a5-a6e5-d0cde4ff140b",
+            "askSection": "HABITS HISTORY",
+            "questionUuid": "1ca03b33-c115-4b9a-aff0-a48ac063503a",
+            "userInterviewId": 3360,
+            "questionText": "Have you used marijuana, CBD or THC in the last 5 years?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "a43942ce-9f8b-466e-ac55-d96df5d9f3e8",
+        "choices": {
+          "583b33d1-b14b-41e4-aec5-96bb8c40238a": {
+            "linkedAsks": [],
+            "questionnaire": "Substance Usage Treatment - 2"
+          },
+          "754a8cf0-e7ef-4e33-9939-8bef1b40fd48": {
+            "linkedAsks": [],
+            "questionnaire": "Substance Usage Treatment - Advised"
+          },
+          "782ea27e-b5b1-43d3-8baf-d9252c68f59c": {
+            "linkedAsks": []
+          },
+          "7f79eb6f-c991-4045-aacd-1461c9e09b73": {
+            "linkedAsks": [],
+            "questionnaire": "Substance Usage Treatment - 2"
+          },
+          "dbe4abc4-95a0-463b-8636-8cfd470ba89f": {
+            "linkedAsks": [],
+            "questionnaire": "Support Group"
+          }
+        },
+        "answered": [
+          "782ea27e-b5b1-43d3-8baf-d9252c68f59c"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89351,
+            "answerUuid": "97250434-8691-49b3-a962-b520aa14d82f",
+            "inactive": null,
+            "askAnswerUuid": "782ea27e-b5b1-43d3-8baf-d9252c68f59c",
+            "askSection": "HABITS HISTORY",
+            "questionUuid": "a43942ce-9f8b-466e-ac55-d96df5d9f3e8",
+            "userInterviewId": 3360,
+            "questionText": "Other than what has already been disclosed, within the past 10 years have you:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "09e91191-e80f-4aea-b9b5-b052dcd88474",
+        "choices": {
+          "a560186e-5897-4905-a389-57be802fbc61": {
+            "linkedAsks": []
+          },
+          "eaec78ba-6420-42cb-af52-59e96bbb7717": {
+            "linkedAsks": [
+              "ea1a10b0-942c-4816-9841-66a500121dd6"
+            ]
+          }
+        },
+        "answered": [
+          "a560186e-5897-4905-a389-57be802fbc61"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89352,
+            "answerUuid": "aa6cfdea-eea1-4a96-bfe0-621d49f115ff",
+            "inactive": null,
+            "askAnswerUuid": "a560186e-5897-4905-a389-57be802fbc61",
+            "askSection": "HABITS HISTORY",
+            "questionUuid": "09e91191-e80f-4aea-b9b5-b052dcd88474",
+            "userInterviewId": 3360,
+            "questionText": "Within the last 5 years, have you used any non-prescribed controlled or illegal drugs? (other than marijuana)",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "b53f0309-bc42-4cea-b8c2-d8911ea8b0c2",
+        "choices": {
+          "1d230bb1-8ca7-4679-8277-b59b43e072ad": {
+            "linkedAsks": []
+          },
+          "83b5f22e-3d01-48a0-bb3d-5d16c02a4e90": {
+            "linkedAsks": [
+              "6353e467-c57a-4a22-9c36-cecfa1a6091e"
+            ]
+          }
+        },
+        "answered": [
+          "1d230bb1-8ca7-4679-8277-b59b43e072ad"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89353,
+            "answerUuid": "f9afcba0-49be-4076-aa65-ed6df2634326",
+            "inactive": null,
+            "askAnswerUuid": "1d230bb1-8ca7-4679-8277-b59b43e072ad",
+            "askSection": "OTHER",
+            "questionUuid": "b53f0309-bc42-4cea-b8c2-d8911ea8b0c2",
+            "userInterviewId": 3360,
+            "questionText": "Do any of these apply to you: [ln][ln]I’ve been convicted of a felony or misdemeanor. [ln]I am currently on parole or probation. [ln]I have charges currently pending. [ln]I am currently in jail. ",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "6ddb83bf-fed6-4a2e-9b4a-bf18105b8ee4",
+        "choices": {
+          "0e591f52-29e7-43ed-9513-0049a387b52d": {
+            "linkedAsks": [],
+            "questionnaire": "Moving Violation"
+          },
+          "8831eae1-a2c7-4df1-9791-befa9d69c024": {
+            "linkedAsks": [],
+            "questionnaire": "Moving Violation"
+          },
+          "8f21581f-1212-410b-b828-e687a74d11dd": {
+            "linkedAsks": [],
+            "questionnaire": "Moving Violation"
+          },
+          "bf81bb97-f2f2-4b8b-8ee5-d2f013ca6ce9": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "bf81bb97-f2f2-4b8b-8ee5-d2f013ca6ce9"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89354,
+            "answerUuid": "b2e10c5c-497d-46b2-b4e5-48841e3c0647",
+            "inactive": null,
+            "askAnswerUuid": "bf81bb97-f2f2-4b8b-8ee5-d2f013ca6ce9",
+            "askSection": "OTHER",
+            "questionUuid": "6ddb83bf-fed6-4a2e-9b4a-bf18105b8ee4",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 5 years do any of the following apply:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "14e7cf35-7b2e-4c57-8dfa-2cad73838e2f",
+        "skipped": true,
+        "answered": []
+      },
+      {
+        "uuid": "e6915ff8-30bf-4eac-9eac-0162fcbb537f",
+        "choices": {
+          "244a2665-7aac-4722-96c8-15bed8715dd2": {
+            "linkedAsks": [],
+            "questionnaire": "Family History - Unknown"
+          },
+          "52e7385c-e4fc-4900-95e2-35bd39309e28": {
+            "linkedAsks": [],
+            "questionnaire": "Family History"
+          },
+          "950aa8b5-3a31-4ab3-a608-0b4f3c44e3f6": {
+            "linkedAsks": [],
+            "questionnaire": "Family History - CAD"
+          },
+          "b2a384c1-ee80-404c-ad75-c86daa271025": {
+            "linkedAsks": [],
+            "questionnaire": "Family History - RUW"
+          },
+          "c60be03d-af52-41a3-b140-445435a562c1": {
+            "linkedAsks": [
+              "b0176d70-3613-4290-b8ee-f9d115f5175d"
+            ]
+          },
+          "e198ad3f-5886-47c4-b49a-a46d4e3e25ba": {
+            "linkedAsks": []
+          },
+          "edbd264b-ae22-4529-826a-d9bb0f307b7d": {
+            "linkedAsks": [],
+            "questionnaire": "Family History - RUW"
+          }
+        },
+        "answered": [
+          "e198ad3f-5886-47c4-b49a-a46d4e3e25ba"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89355,
+            "answerUuid": "9a7b0b34-c650-44e2-af8f-650acb5b918c",
+            "inactive": null,
+            "askAnswerUuid": "e198ad3f-5886-47c4-b49a-a46d4e3e25ba",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "e6915ff8-30bf-4eac-9eac-0162fcbb537f",
+            "userInterviewId": 3360,
+            "questionText": "Has a biological parent or sibling been diagnosed with or treated for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "f3d31339-2678-4fc5-b175-99331d061085",
+        "choices": {
+          "0095e742-4729-4905-a2e5-8879dda90b16": {
+            "linkedAsks": []
+          },
+          "a4a7dae1-c9f5-40bc-b39e-61ee9d516337": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "0095e742-4729-4905-a2e5-8879dda90b16"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89356,
+            "answerUuid": "9b1421b4-a0cd-4738-a754-9aa49512d184",
+            "inactive": null,
+            "askAnswerUuid": "0095e742-4729-4905-a2e5-8879dda90b16",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "f3d31339-2678-4fc5-b175-99331d061085",
+            "userInterviewId": 3360,
+            "questionText": "In the last 30 days, have you been diagnosed with, been treated for, or sought testing or consultation, or do you intend to seek testing or consultation with a member of the medical profession for Coronavirus including COVID-19, or for fever, or cough, or shortness of breath?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "ea5a3913-5f60-4554-b12d-6006642d33ea",
+        "choices": {
+          "052e4144-e798-4944-8a97-f60e8db3b102": {
+            "linkedAsks": []
+          },
+          "e36f47c2-5759-4363-9394-e0311792284d": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "e36f47c2-5759-4363-9394-e0311792284d"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89357,
+            "answerUuid": "12df5b66-8b87-479d-90a6-c03962dc00bd",
+            "inactive": null,
+            "askAnswerUuid": "e36f47c2-5759-4363-9394-e0311792284d",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "ea5a3913-5f60-4554-b12d-6006642d33ea",
+            "userInterviewId": 3360,
+            "questionText": "Have you ever been diagnosed, treated, or given medical advice by a medical professional or tested positive for HIV (Human Immunodeficiency Virus) or AIDS (Acquired Immune Deficiency Syndrome)?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "a5fecaf8-d2c2-4a16-bc98-503ba8abb1c2",
+        "skipped": true,
+        "answered": []
+      },
+      {
+        "uuid": "cb227a1a-b7ab-4ba4-86e0-504d2529f5fb",
+        "choices": {
+          "b1261c42-1da2-41a8-a2af-1ddfae2c0257": {
+            "linkedAsks": [
+              "8298ba0c-92bd-488c-8ce1-a337df7012b9"
+            ]
+          },
+          "d4bcd95b-018d-4015-baf9-c3a5e9c83366": {
+            "linkedAsks": [
+              "a67562e8-8599-4aed-bb96-69bc25598fe6"
+            ]
+          },
+          "d8ad362c-523d-4032-8a30-275dda796aad": {
+            "linkedAsks": []
+          },
+          "dddf83d8-a7e2-4d74-8d6c-b0047dc1b8ff": {
+            "linkedAsks": [
+              "8b1f0688-219f-44ae-9d1f-bd04dd3c7abb"
+            ]
+          }
+        },
+        "answered": [
+          "d8ad362c-523d-4032-8a30-275dda796aad"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89358,
+            "answerUuid": "f77b10ff-d07d-4a86-a53a-8dd8e78028a9",
+            "inactive": null,
+            "askAnswerUuid": "d8ad362c-523d-4032-8a30-275dda796aad",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "cb227a1a-b7ab-4ba4-86e0-504d2529f5fb",
+            "userInterviewId": 3360,
+            "questionText": "Have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "be2b67bb-4c65-412c-adf9-3d250bc6b150",
+        "choices": {
+          "0da448b3-3de9-47b2-9992-67df2db2cc9f": {
+            "linkedAsks": [
+              "245ca326-94af-4d2c-9e78-651f41c4fb94"
+            ]
+          },
+          "44442136-01c7-41c1-a410-386a0f261a6d": {
+            "linkedAsks": [
+              "56034001-53b9-499c-8dd1-e281b792a8f2"
+            ]
+          },
+          "6aecfbb7-122e-45ed-b207-e4d444ee4dc4": {
+            "linkedAsks": []
+          },
+          "e10733c3-3aca-4e71-9070-77ed8a0102dd": {
+            "linkedAsks": [
+              "9c6d6725-6f4c-4e6a-88c4-37e7f3663202"
+            ]
+          }
+        },
+        "answered": [
+          "6aecfbb7-122e-45ed-b207-e4d444ee4dc4"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89359,
+            "answerUuid": "463be1a8-ad4c-461c-b68f-4f65e8e9cc34",
+            "inactive": null,
+            "askAnswerUuid": "6aecfbb7-122e-45ed-b207-e4d444ee4dc4",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "be2b67bb-4c65-412c-adf9-3d250bc6b150",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 10 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "cc7042c0-21e3-42cf-90b0-a4fd60ee0912",
+        "choices": {
+          "64e8cb21-8139-4123-ae15-d274521a2a14": {
+            "linkedAsks": [
+              "b24c29bc-6f0f-4d76-84ab-f6f66a2cc0ae"
+            ]
+          },
+          "a2a18edf-217c-4a93-88d6-f94235d6813e": {
+            "linkedAsks": []
+          },
+          "d1327d84-591a-42a0-b77a-7cc5e50a038f": {
+            "linkedAsks": [
+              "55605d8d-63ce-4de3-9e01-88d538bb139d"
+            ]
+          },
+          "f92e314d-b573-453a-aea8-128cbeb557f5": {
+            "linkedAsks": [
+              "5cfda30c-b2dc-4c7a-bb9e-e7e705851a51"
+            ]
+          }
+        },
+        "answered": [
+          "a2a18edf-217c-4a93-88d6-f94235d6813e"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89360,
+            "answerUuid": "b9e418e7-fed1-4968-be45-493cce21e1e9",
+            "inactive": null,
+            "askAnswerUuid": "a2a18edf-217c-4a93-88d6-f94235d6813e",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "cc7042c0-21e3-42cf-90b0-a4fd60ee0912",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 10 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "6ee96934-f9d8-4782-814f-2a8617e875cc",
+        "choices": {
+          "0cffd3d3-464c-4391-8fc9-f58200a6eb1e": {
+            "linkedAsks": [],
+            "questionnaire": "Hyperlipidemia"
+          },
+          "18912341-300f-4983-b0e2-878d5d323257": {
+            "linkedAsks": []
+          },
+          "3c3b0c62-1995-4c15-8872-8eec3f97c104": {
+            "linkedAsks": [
+              "9905e3f8-24dc-48d7-8a20-18082d5703bf"
+            ]
+          },
+          "aa05fff0-fc05-4f74-90e0-58f19b21812f": {
+            "linkedAsks": [],
+            "questionnaire": "Hypertension"
+          }
+        },
+        "answered": [
+          "18912341-300f-4983-b0e2-878d5d323257"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89361,
+            "answerUuid": "abe71378-da8f-44ab-97cb-1a1298868a5c",
+            "inactive": null,
+            "askAnswerUuid": "18912341-300f-4983-b0e2-878d5d323257",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "6ee96934-f9d8-4782-814f-2a8617e875cc",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 5 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "f9b38b4d-fe00-4881-bef7-fcf899e0663d",
+        "choices": {
+          "5a570ebc-293b-4eec-a73c-6a3bfb546582": {
+            "linkedAsks": [
+              "12034dae-1f3a-4cfa-9ffb-67e9e206e770"
+            ]
+          },
+          "a47ce9f6-01b8-48b1-85d6-ea069d945fa0": {
+            "linkedAsks": [
+              "24c5954e-b07f-4954-9c45-ffb681fdb978"
+            ]
+          },
+          "d74e1752-4ec3-4b37-a22c-d1ccb549203a": {
+            "linkedAsks": []
+          },
+          "dd0eac25-f062-48d1-9788-9c7c370ee40b": {
+            "linkedAsks": [
+              "cd5bfe4e-3c53-483e-ba04-666b7ca35d74"
+            ]
+          }
+        },
+        "answered": [
+          "d74e1752-4ec3-4b37-a22c-d1ccb549203a"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89362,
+            "answerUuid": "66dc9f80-3e41-4a80-a34f-b0c41d5f1dfe",
+            "inactive": null,
+            "askAnswerUuid": "d74e1752-4ec3-4b37-a22c-d1ccb549203a",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "f9b38b4d-fe00-4881-bef7-fcf899e0663d",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 5 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "42079a9c-5ef5-4683-beda-d6f5dd40f27c",
+        "choices": {
+          "8e0e42b0-8d18-4d94-bf2e-22ea44f9e0aa": {
+            "linkedAsks": [
+              "8fce346a-9755-44bb-8423-236294506769"
+            ],
+            "questionnaire": "Medical Test or Procedure"
+          },
+          "dd83b668-3ee4-4109-9b6b-06fc4b86e7c7": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "dd83b668-3ee4-4109-9b6b-06fc4b86e7c7"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89363,
+            "answerUuid": "2da339eb-c80b-4ea6-b8f6-1d045416d3d5",
+            "inactive": null,
+            "askAnswerUuid": "dd83b668-3ee4-4109-9b6b-06fc4b86e7c7",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "42079a9c-5ef5-4683-beda-d6f5dd40f27c",
+            "userInterviewId": 3360,
+            "questionText": "In the last 5 years, has a medical professional recommended any test (other than HIV), treatment, or consultation that you have not yet completed, or are awaiting results for? ",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "a34ea5b9-260f-46cb-90f2-0dcc66759945",
+        "choices": {
+          "23a1b78e-dff1-44f3-a736-5d10339c763b": {
+            "linkedAsks": [
+              "f1887453-9271-480b-81a4-d844d817f7f7"
+            ]
+          },
+          "32c57b3b-d4ee-40dd-ac5c-90ee78eaf7b6": {
+            "linkedAsks": []
+          }
+        },
+        "answered": [
+          "32c57b3b-d4ee-40dd-ac5c-90ee78eaf7b6"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89364,
+            "answerUuid": "6e5023a2-4174-4319-8853-cded1b2d5428",
+            "inactive": null,
+            "askAnswerUuid": "32c57b3b-d4ee-40dd-ac5c-90ee78eaf7b6",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "a34ea5b9-260f-46cb-90f2-0dcc66759945",
+            "userInterviewId": 3360,
+            "questionText": "Within the past year other than what you’ve already told us, has a medical professional recommended that you have any diagnostic tests?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "15bcb4ca-3b52-4ea4-8dbb-7d78857cb263",
+        "choices": {
+          "527a1ee6-e209-4054-b22d-ded1e5256b72": {
+            "linkedAsks": []
+          },
+          "71449da3-c8ed-42a9-ac48-8a416ad24256": {
+            "linkedAsks": [
+              "91961d62-8189-45ac-9bed-ebde1254c82c"
+            ]
+          },
+          "bd795109-4694-469c-ac03-0e92f125ed85": {
+            "linkedAsks": [
+              "9cb98221-68ce-4c94-846a-9c4f894c8028"
+            ]
+          }
+        },
+        "answered": [
+          "527a1ee6-e209-4054-b22d-ded1e5256b72"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89365,
+            "answerUuid": "7452682a-2c64-407d-96fb-98ff15dc54db",
+            "inactive": null,
+            "askAnswerUuid": "527a1ee6-e209-4054-b22d-ded1e5256b72",
+            "askSection": "MEDICAL QUESTIONS",
+            "questionUuid": "15bcb4ca-3b52-4ea4-8dbb-7d78857cb263",
+            "userInterviewId": 3360,
+            "questionText": "Within the past 5 years, other than what you have already told us, have you:",
+            "questionType": "CHECK_BOX",
+            "answerText": "None of the Above",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "93359d89-0cdf-4998-837e-8e3cc49e49e5",
+        "choices": {
+          "c14668f3-e2bf-4794-8157-e83d80e69507": {
+            "linkedAsks": [
+              "73219d43-5e67-4d23-9cbd-fadc25c42a55"
+            ]
+          },
+          "f9484849-ef3e-4066-915d-812ccb0cf428": {
+            "linkedAsks": [
+              "e220d883-eba4-4d78-bfa9-4f54c1824e3e",
+              "848b686f-104b-4970-89e0-001143f8ebc5",
+              "6023c704-524a-4eee-b101-a5306c099be7"
+            ]
+          }
+        },
+        "answered": [
+          "c14668f3-e2bf-4794-8157-e83d80e69507"
+        ],
+        "userAnswers": [
+          {
+            "answerId": 89366,
+            "answerUuid": "ce24bac7-aa4d-489b-8be9-f0cf92e2a9a6",
+            "inactive": null,
+            "askAnswerUuid": "c14668f3-e2bf-4794-8157-e83d80e69507",
+            "askSection": "INSURANCE HISTORY",
+            "questionUuid": "93359d89-0cdf-4998-837e-8e3cc49e49e5",
+            "userInterviewId": 3360,
+            "questionText": "Do you have or have you applied for any other life insurance or annuities?",
+            "questionType": "RADIO",
+            "answerText": "No",
+            "answerValue": null,
+            "answerMetadata": {},
+            "multipleAnswerLink": null,
+            "userAnswerFact": null,
+            "userAnswerAuxiliaryFact": null,
+            "askFact": null
+          }
+        ]
+      },
+      {
+        "uuid": "73219d43-5e67-4d23-9cbd-fadc25c42a55",
+        "skipped": true,
+        "answered": [],
+        "breadcrumbs": ""
+      }
+    ],
+    "current": {
+      "uuid": ""
+    },
+    "toAsk": []
+  },
+  "preinterview": {
+    "id": 3316,
+    "createdAt": "2021-03-11T06:39:38.297Z",
+    "updatedAt": "2021-03-11T06:39:38.297Z",
+    "userInterviewId": 3360,
+    "ageCalculationType": "age nearest birthday",
+    "coverageAmount": 100000,
+    "stateOfApplication": "CA",
+    "gender": "Male",
+    "birthDate": "1980-05-09",
+    "noDriversLicenseInd": false,
+    "age": 41,
+    "birthCountry": "USA",
+    "birthState": "CA",
+    "person.ratedDeclinedInsInd": false,
+    "driversLicenseInd": true
+  },
+  "interview": [
+    {
+      "sectionName": "BASICS",
+      "asks": [
+        {
+          "questionUUID": "3a2a4028-0f6e-4fca-8347-05a6250cfec6",
+          "questionPrompt": "What is your height?",
+          "askLabel": "height-current",
+          "askType": "UNITIZED",
+          "answers": [
+            {
+              "answerUUID": null,
+              "value": "5ft9in",
+              "metadata": {
+                "feet": "5",
+                "inches": "9"
+              },
+              "relatedAsks": [],
+              "factkeyvalue": {
+                "fact": "person.height",
+                "factId": "FACT_7050"
+              }
+            }
+          ]
+        },
+        {
+          "questionUUID": "cee5a796-86c1-4b94-9324-f188bae5699b",
+          "questionPrompt": "What is your weight?",
+          "askLabel": "weight-current",
+          "askType": "UNITIZED",
+          "answers": [
+            {
+              "answerUUID": null,
+              "value": "155",
+              "metadata": {
+                "unit": "pounds"
+              },
+              "relatedAsks": [],
+              "factkeyvalue": {
+                "fact": "person.weight",
+                "factId": "FACT_7051"
+              }
+            }
+          ]
+        },
+        {
+          "questionUUID": "1044ef0c-7301-468c-a367-5600e7003a04",
+          "questionPrompt": "Has your weight increased or decreased by more than 20 pounds in the past year?",
+          "askLabel": "weight-change-past-12-months",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "288c86ab-bec0-4148-a157-dd1231d9e990",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "19ca315d-8a79-4018-942c-2572a08a1ed5",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "19ca315d-8a79-4018-942c-2572a08a1ed5",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "88513649-2780-4b30-bc53-8d420ef294e6",
+          "questionPrompt": "Which nicotine products do you use or have used?",
+          "askLabel": "nicotine-usage-ever",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "9c0743fb-de83-47f4-bcd0-656757668a71",
+              "text": "Cigarettes, e-Cigarettes, vaporizers",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Cigarettes"
+              }
+            },
+            {
+              "answerUUID": "a0964c70-7a3c-48e6-abb7-9e44d6359a52",
+              "text": "Pipe Tobacco, Hookah/Water Pipe",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "PipeTobacco"
+              }
+            },
+            {
+              "answerUUID": "3c365626-d18c-4965-97ff-2479225a8320",
+              "text": "Cigars",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Cigars"
+              }
+            },
+            {
+              "answerUUID": "ce146cb4-d892-4adc-be70-ea60f8e495a9",
+              "text": "Chew or Snuff",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "ChewingTobacco"
+              }
+            },
+            {
+              "answerUUID": "2ed69f58-2e5d-4408-9135-c0476957ee45",
+              "text": "Nicotine Patch or Gum",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "NicotinePatch"
+              }
+            },
+            {
+              "answerUUID": "a7e56f30-585f-4f16-a1a6-c1cb70731581",
+              "text": "Other Nicotine",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "OtherTobacco"
+              }
+            },
+            {
+              "answerUUID": "0687c258-3e80-4cab-b7eb-63b05e6ad933",
+              "text": "I have never used tobacco products",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "0687c258-3e80-4cab-b7eb-63b05e6ad933",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "FINANCIAL",
+      "asks": [
+        {
+          "questionUUID": "fb1dc770-2349-49ec-96ab-51d1d70a7b25",
+          "questionPrompt": "What is your marital status?",
+          "askLabel": "marital-status-current",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "378f8248-7865-413c-990b-8f55d196f73e",
+              "text": "Single",
+              "specialActions": [],
+              "factkeyvalue": {
+                "value": "single"
+              }
+            },
+            {
+              "answerUUID": "457096ae-0c6d-44e1-9b56-d82ca4019138",
+              "text": "Married",
+              "specialActions": [],
+              "factkeyvalue": {
+                "value": "married"
+              }
+            },
+            {
+              "answerUUID": "002a5d33-43f9-4332-b28b-e63c0ea23c25",
+              "text": "Divorced",
+              "specialActions": [],
+              "factkeyvalue": {
+                "value": "divorced"
+              }
+            },
+            {
+              "answerUUID": "91ccee4b-c74d-4ae1-9a87-3137c21ead3a",
+              "text": "Widowed",
+              "specialActions": [],
+              "factkeyvalue": {
+                "value": "widowed"
+              }
+            },
+            {
+              "answerUUID": "1e05701b-5a7d-4b0b-b393-4918d3ad7d91",
+              "text": "Partner",
+              "specialActions": [],
+              "factkeyvalue": {
+                "value": "partnered"
+              }
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "378f8248-7865-413c-990b-8f55d196f73e",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": [],
+              "factkeyvalue": {
+                "fact": "maritalStatus",
+                "factId": "FACT_7083"
+              }
+            }
+          ]
+        },
+        {
+          "questionUUID": "947fe460-f465-4440-8310-0282c5826b01",
+          "questionPrompt": "What is your current employment status:",
+          "askLabel": "employment-status-current",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "6ce01f29-2bf8-45b4-9703-fc425933f588",
+              "text": "Employed (incl. business owner, self-employed)",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "b200c5d2-c549-4a1c-b5e0-6be1b5bdfda5",
+              "text": "Homemaker",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Homemaker"
+              }
+            },
+            {
+              "answerUUID": "9b85cfd5-2355-4bab-97cb-791464f1a1dc",
+              "text": "Retired",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Retired"
+              }
+            },
+            {
+              "answerUUID": "69fe9ec1-68e6-4d3d-91ba-4daa4fd6e316",
+              "text": "Full time student",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Student"
+              }
+            },
+            {
+              "answerUUID": "f77a04a4-4b2a-4243-928b-493a33c213af",
+              "text": "Unemployed",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Unemployed"
+              }
+            },
+            {
+              "answerUUID": "9135ab66-75e9-4877-af1e-17c7b1dad5c6",
+              "text": "Other",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "otherEmploymentStatus"
+              }
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "9b85cfd5-2355-4bab-97cb-791464f1a1dc",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": [
+                {
+                  "questionUUID": "ee70feb3-b435-40bd-be01-809322efb4c6",
+                  "questionPrompt": "When did you retire?",
+                  "askType": "DATE",
+                  "answers": [
+                    {
+                      "answerUUID": null,
+                      "value": "03/2020",
+                      "metadata": {
+                        "dateFormat": "MM/YYYY",
+                        "breadcrumbs": "Retired"
+                      },
+                      "relatedAsks": [],
+                      "factkeyvalue": {
+                        "key": "startDate",
+                        "keyId": "KEY_271"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "questionUUID": "25358373-300e-4d3e-9851-d017e2414dd9",
+                  "questionPrompt": "What is the reason for your retirement prior to age 55?",
+                  "askType": "RADIO",
+                  "answerChoices": [
+                    {
+                      "answerUUID": "c7cab3e7-3f1d-45ad-9bfa-742a3483b69d",
+                      "text": "Financial reasons",
+                      "specialActions": [],
+                      "factkeyvalue": {
+                        "value": "financial"
+                      }
+                    },
+                    {
+                      "answerUUID": "e28cf1af-26c2-4f58-981e-4976819ace25",
+                      "text": "Due to medical conditions or injury",
+                      "specialActions": [],
+                      "factkeyvalue": {
+                        "value": "medical"
+                      }
+                    },
+                    {
+                      "answerUUID": "507c955b-447a-4fb2-af59-79ae53064441",
+                      "text": "Other",
+                      "specialActions": [],
+                      "factkeyvalue": {
+                        "value": "other"
+                      }
+                    }
+                  ],
+                  "answers": [
+                    {
+                      "answerUUID": "e28cf1af-26c2-4f58-981e-4976819ace25",
+                      "value": null,
+                      "metadata": {
+                        "breadcrumbs": "Retired"
+                      },
+                      "relatedAsks": [],
+                      "factkeyvalue": {
+                        "key": "retirementReason",
+                        "keyId": "KEY_409"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "questionUUID": "7eb4c988-970c-4b9d-b2be-2e01fdcdb99b",
+                  "questionPrompt": "What is your total annual pre-tax household income?",
+                  "askType": "NUMERIC",
+                  "answers": [
+                    {
+                      "answerUUID": null,
+                      "value": "50000",
+                      "metadata": {
+                        "breadcrumbs": "Retired"
+                      },
+                      "relatedAsks": [],
+                      "factkeyvalue": {
+                        "key": "annualHouseholdIncome",
+                        "keyId": "KEY_73"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "questionUUID": "906aa39f-fa0d-47c4-aee2-f3cde31c7b0f",
+                  "questionPrompt": "Does your spouse or partner have life insurance in force? ",
+                  "askType": "RADIO",
+                  "answerChoices": [
+                    {
+                      "answerUUID": "16878bfe-fb7f-4c21-8d65-3df1d9e021b5",
+                      "text": "Yes",
+                      "specialActions": []
+                    },
+                    {
+                      "answerUUID": "a1b1e448-c490-4775-8226-dbb4fcc44048",
+                      "text": "No",
+                      "specialActions": []
+                    },
+                    {
+                      "answerUUID": "99100235-8010-4d5f-a7d7-641069372ad7",
+                      "text": "I don't have a spouse or partner",
+                      "specialActions": []
+                    }
+                  ],
+                  "answers": [
+                    {
+                      "answerUUID": "99100235-8010-4d5f-a7d7-641069372ad7",
+                      "value": null,
+                      "metadata": {
+                        "breadcrumbs": "Retired"
+                      },
+                      "relatedAsks": []
+                    }
+                  ]
+                },
+                {
+                  "questionUUID": "b3fa1f5a-c027-4932-ac28-bf724b127c70",
+                  "questionPrompt": "What is the total number of dependents in your household?",
+                  "askType": "NUMERIC",
+                  "answers": [
+                    {
+                      "answerUUID": null,
+                      "value": "0",
+                      "metadata": {
+                        "breadcrumbs": "Retired"
+                      },
+                      "relatedAsks": []
+                    }
+                  ]
+                }
+              ],
+              "factkeyvalue": {
+                "fact": "Retired"
+              }
+            }
+          ]
+        },
+        {
+          "questionUUID": "294ebcd4-66a3-4c8e-83fd-5e6c6e92f9cd",
+          "questionPrompt": "What is your annual pre-tax income?",
+          "askLabel": "salary-current",
+          "askType": "NUMERIC",
+          "answers": [
+            {
+              "answerUUID": null,
+              "value": "50000",
+              "metadata": {},
+              "relatedAsks": [],
+              "factkeyvalue": {
+                "fact": "person.estimatedSalary",
+                "factId": "FACT_9824"
+              }
+            }
+          ]
+        },
+        {
+          "questionUUID": "0cc803e3-73eb-45ad-a170-90210b342412",
+          "questionPrompt": "Have you filed bankruptcy in the past 5 years?",
+          "askLabel": "bankrupcty-history-5-years",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "fb7e3f8c-f219-4df9-9eb4-c87dcd4ec0f3",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Chapter7"
+              }
+            },
+            {
+              "answerUUID": "a1de8f4c-c878-4a68-9b9e-309755e8b9a6",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "a1de8f4c-c878-4a68-9b9e-309755e8b9a6",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "ebcac637-bbe6-41c6-ae7b-2746fd90c871",
+          "questionPrompt": "Within the past 12 months have you been unable to work for more than 30 consecutive days due to illness or injury?",
+          "askLabel": "disability-history-12-months",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "fec24468-574f-485b-9e53-986ddd77e42a",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "6d4a2db3-b9eb-44a8-bf89-aafaa34cea19",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "6d4a2db3-b9eb-44a8-bf89-aafaa34cea19",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "AVOCATIONS",
+      "asks": [
+        {
+          "questionUUID": "96f8cfac-376a-49a2-a33d-a3fd717fce4e",
+          "questionPrompt": "Have you in the past 2 years, or do you plan in the next year, to participate in any of the following?",
+          "askLabel": "activities-history",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "6de60b61-e08d-4e57-9136-7ef0dc67cb71",
+              "text": "Recreational Aviation",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "3fab4bdb-70f8-454c-bee0-7a1892936b4b",
+              "text": "Air Sports",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "ea344668-5d64-435f-a2ac-4e2d7ce81284",
+              "text": "Motor Sports",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "bdf7fb45-27ee-4c01-a89f-06199c5b9e73",
+              "text": "Mountain, Rock, Snow or Ice Climbing ",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "da746092-530a-4574-9ded-6f19194456ec",
+              "text": "Scuba Diving",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "c2cee16a-b924-476a-951f-027f28bfbce3",
+              "text": "Cliff Diving",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "CliffDiving"
+              }
+            },
+            {
+              "answerUUID": "6e00eadc-5776-4f61-ae88-8c295bd135b7",
+              "text": "Other Sport Activities",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "c0e62090-1c0e-4122-9047-0b4c6e070f2d",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "c0e62090-1c0e-4122-9047-0b4c6e070f2d",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "5bd4ba36-6312-4729-ab76-05f005407fb4",
+          "questionPrompt": "Are you or have you agreed to become a member of the armed forces including the National Guard or Reserves? ",
+          "askLabel": "military-status-current",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "c60c010b-33e5-4d69-abd5-eb2a6979991a",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "MilitaryCurrentlyDeployedOverseasUnderOrderstoDeployPeacekeepingmission"
+              }
+            },
+            {
+              "answerUUID": "20bebde7-a729-4868-a38a-2b92adb386c4",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "20bebde7-a729-4868-a38a-2b92adb386c4",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "3d8b953c-3682-4493-88eb-ae4a6dd0e3aa",
+          "questionPrompt": "Are you planning to travel or live outside of the US or Canada within the next 2 years?",
+          "askLabel": "travel-upcoming",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "451c4e04-8695-418e-9f6b-2dc79380f3b7",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "be00d79e-7d43-4705-860d-bf6c64526e0b",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "be00d79e-7d43-4705-860d-bf6c64526e0b",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "HABITS HISTORY",
+      "asks": [
+        {
+          "questionUUID": "3aa88df0-1184-40db-a1f6-744db82de8a9",
+          "questionPrompt": "Do you consume alcohol?",
+          "askLabel": "alcohol-usage-current",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "c4a36ce7-cdac-4833-bd78-bcfad34b3e00",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "AlcoholUse"
+              }
+            },
+            {
+              "answerUUID": "6ccbc2a2-757d-4586-b8d7-cf53b1fcca39",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "6ccbc2a2-757d-4586-b8d7-cf53b1fcca39",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "1ca03b33-c115-4b9a-aff0-a48ac063503a",
+          "questionPrompt": "Have you used marijuana, CBD or THC in the last 5 years?",
+          "askLabel": "marijuana-usage-past-5-years",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "63a7ab6c-29f2-4637-8deb-aa87553322fb",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Marijuana"
+              }
+            },
+            {
+              "answerUUID": "96c331da-057e-47a5-a6e5-d0cde4ff140b",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "96c331da-057e-47a5-a6e5-d0cde4ff140b",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "a43942ce-9f8b-466e-ac55-d96df5d9f3e8",
+          "questionPrompt": "Other than what has already been disclosed, within the past 10 years have you:",
+          "askLabel": "addiction-help-10-years",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "dbe4abc4-95a0-463b-8636-8cfd470ba89f",
+              "text": "Been a member of a self help group",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "AlcoholicsAnonymous"
+              }
+            },
+            {
+              "answerUUID": "754a8cf0-e7ef-4e33-9939-8bef1b40fd48",
+              "text": "Been advised by a medical professional to seek treatment or counseling for alcohol or drug use ",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "SubstanceUsageAdvice"
+              }
+            },
+            {
+              "answerUUID": "7f79eb6f-c991-4045-aacd-1461c9e09b73",
+              "text": "Had treatment or counseling for alcohol or drug abuse",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "SubstanceUsage"
+              }
+            },
+            {
+              "answerUUID": "583b33d1-b14b-41e4-aec5-96bb8c40238a",
+              "text": "Been advised by a medical professional to reduce your alcohol intake",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "AlcoholAbuseCounseling"
+              }
+            },
+            {
+              "answerUUID": "782ea27e-b5b1-43d3-8baf-d9252c68f59c",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "782ea27e-b5b1-43d3-8baf-d9252c68f59c",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "09e91191-e80f-4aea-b9b5-b052dcd88474",
+          "questionPrompt": "Within the last 5 years, have you used any non-prescribed controlled or illegal drugs? (other than marijuana)",
+          "askLabel": "illegal-substance-usage-5-years",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "eaec78ba-6420-42cb-af52-59e96bbb7717",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "a560186e-5897-4905-a389-57be802fbc61",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "a560186e-5897-4905-a389-57be802fbc61",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "OTHER",
+      "asks": [
+        {
+          "questionUUID": "b53f0309-bc42-4cea-b8c2-d8911ea8b0c2",
+          "questionPrompt": "Do any of these apply to you: [ln][ln]I’ve been convicted of a felony or misdemeanor. [ln]I am currently on parole or probation. [ln]I have charges currently pending. [ln]I am currently in jail. ",
+          "askLabel": "criminal-activity-ever",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "83b5f22e-3d01-48a0-bb3d-5d16c02a4e90",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "1d230bb1-8ca7-4679-8277-b59b43e072ad",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "1d230bb1-8ca7-4679-8277-b59b43e072ad",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "6ddb83bf-fed6-4a2e-9b4a-bf18105b8ee4",
+          "questionPrompt": "Within the past 5 years do any of the following apply:",
+          "askLabel": "moving-violations-5-years",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "8831eae1-a2c7-4df1-9791-befa9d69c024",
+              "text": "Had your license suspended or revoked",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "LicenseSuspended"
+              }
+            },
+            {
+              "answerUUID": "8f21581f-1212-410b-b828-e687a74d11dd",
+              "text": "Pled guilty or been convicted of a DUI, driving without a license, or reckless driving",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Dui"
+              }
+            },
+            {
+              "answerUUID": "0e591f52-29e7-43ed-9513-0049a387b52d",
+              "text": "Pled guilty to or been convicted of any other moving violations",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "otherMovingViolation"
+              }
+            },
+            {
+              "answerUUID": "bf81bb97-f2f2-4b8b-8ee5-d2f013ca6ce9",
+              "text": "None of the above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "bf81bb97-f2f2-4b8b-8ee5-d2f013ca6ce9",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "MEDICAL QUESTIONS",
+      "asks": [
+        {
+          "questionUUID": "e6915ff8-30bf-4eac-9eac-0162fcbb537f",
+          "questionPrompt": "Has a biological parent or sibling been diagnosed with or treated for any of the following:",
+          "askLabel": "family-illness-ever",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "b2a384c1-ee80-404c-ad75-c86daa271025",
+              "text": "Polycystic Kidney Disease",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "fhx.PolycysticKidneyDisease"
+              }
+            },
+            {
+              "answerUUID": "edbd264b-ae22-4529-826a-d9bb0f307b7d",
+              "text": "Huntington's Disease (chorea)",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "fhx.HuntingtonsDisease"
+              }
+            },
+            {
+              "answerUUID": "c60be03d-af52-41a3-b140-445435a562c1",
+              "text": "Cancer",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "950aa8b5-3a31-4ab3-a608-0b4f3c44e3f6",
+              "text": "Heart Disease",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "fhx.CardiovascularDisease"
+              }
+            },
+            {
+              "answerUUID": "52e7385c-e4fc-4900-95e2-35bd39309e28",
+              "text": "Familial Adenomatous Polyposis (FAP)",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "fhx.FamilialAdenomatousPolyposisFAP"
+              }
+            },
+            {
+              "answerUUID": "244a2665-7aac-4722-96c8-15bed8715dd2",
+              "text": "Unknown",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "fhx.otherFamily Illness"
+              }
+            },
+            {
+              "answerUUID": "e198ad3f-5886-47c4-b49a-a46d4e3e25ba",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "e198ad3f-5886-47c4-b49a-a46d4e3e25ba",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "f3d31339-2678-4fc5-b175-99331d061085",
+          "questionPrompt": "In the last 30 days, have you been diagnosed with, been treated for, or sought testing or consultation, or do you intend to seek testing or consultation with a member of the medical profession for Coronavirus including COVID-19, or for fever, or cough, or shortness of breath?",
+          "askLabel": "covid-conditions-thirty-day",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "a4a7dae1-c9f5-40bc-b39e-61ee9d516337",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "dt_COVID-19"
+              }
+            },
+            {
+              "answerUUID": "0095e742-4729-4905-a2e5-8879dda90b16",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "0095e742-4729-4905-a2e5-8879dda90b16",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "ea5a3913-5f60-4554-b12d-6006642d33ea",
+          "questionPrompt": "Have you ever been diagnosed, treated, or given medical advice by a medical professional or tested positive for HIV (Human Immunodeficiency Virus) or AIDS (Acquired Immune Deficiency Syndrome)?",
+          "askLabel": "immunodeficiency-conditions-ever",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "052e4144-e798-4944-8a97-f60e8db3b102",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "HumanImmunodeficiencyVirus"
+              }
+            },
+            {
+              "answerUUID": "e36f47c2-5759-4363-9394-e0311792284d",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "e36f47c2-5759-4363-9394-e0311792284d",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "cb227a1a-b7ab-4ba4-86e0-504d2529f5fb",
+          "questionPrompt": "Have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+          "askLabel": "medical-history-ever",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "b1261c42-1da2-41a8-a2af-1ddfae2c0257",
+              "text": "Cancer, Tumor or other abnormal growth",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "d4bcd95b-018d-4015-baf9-c3a5e9c83366",
+              "text": "Neurological Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "dddf83d8-a7e2-4d74-8d6c-b0047dc1b8ff",
+              "text": "Heart or Circulatory Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "d8ad362c-523d-4032-8a30-275dda796aad",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "d8ad362c-523d-4032-8a30-275dda796aad",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "be2b67bb-4c65-412c-adf9-3d250bc6b150",
+          "questionPrompt": "Within the past 10 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+          "askLabel": "medical-history-10-years-part-1",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "e10733c3-3aca-4e71-9070-77ed8a0102dd",
+              "text": "Mental, Behavioral or Psychiatric Disorder (including anxiety, depression, or ADD/ADHD)",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "44442136-01c7-41c1-a410-386a0f261a6d",
+              "text": "Disorder of the Brain and/or Cerebral Blood vessels",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "0da448b3-3de9-47b2-9992-67df2db2cc9f",
+              "text": "Anemia, blood or immune system disorder (other than HIV)",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "6aecfbb7-122e-45ed-b207-e4d444ee4dc4",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "6aecfbb7-122e-45ed-b207-e4d444ee4dc4",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "cc7042c0-21e3-42cf-90b0-a4fd60ee0912",
+          "questionPrompt": "Within the past 10 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+          "askLabel": "medical-history-10-years-part-2",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "f92e314d-b573-453a-aea8-128cbeb557f5",
+              "text": "Connective Tissue or Autoimmune Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "64e8cb21-8139-4123-ae15-d274521a2a14",
+              "text": "Diabetes, Thyroid or other Endocrine Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "d1327d84-591a-42a0-b77a-7cc5e50a038f",
+              "text": "Lung or Respiratory Disorder (Including sleep apnea, asthma)",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "a2a18edf-217c-4a93-88d6-f94235d6813e",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "a2a18edf-217c-4a93-88d6-f94235d6813e",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "6ee96934-f9d8-4782-814f-2a8617e875cc",
+          "questionPrompt": "Within the past 5 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+          "askLabel": "medical-history-5-years-part-1",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "aa05fff0-fc05-4f74-90e0-58f19b21812f",
+              "text": "High Blood Pressure (Hypertension)",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Hypertension"
+              }
+            },
+            {
+              "answerUUID": "0cffd3d3-464c-4391-8fc9-f58200a6eb1e",
+              "text": "High Cholesterol (Hyperlipidemia)",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "Hyperlipidemia"
+              }
+            },
+            {
+              "answerUUID": "3c3b0c62-1995-4c15-8872-8eec3f97c104",
+              "text": "Muscle, Bone or Joint Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "18912341-300f-4983-b0e2-878d5d323257",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "18912341-300f-4983-b0e2-878d5d323257",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "f9b38b4d-fe00-4881-bef7-fcf899e0663d",
+          "questionPrompt": "Within the past 5 years, have you ever been diagnosed, treated, or given medical advice by a medical professional for any of the following:",
+          "askLabel": "medical-history-5-years-part-2",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "a47ce9f6-01b8-48b1-85d6-ea069d945fa0",
+              "text": "Digestive or Gastrointestinal Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "dd0eac25-f062-48d1-9788-9c7c370ee40b",
+              "text": "Bladder, Kidney or Urinary Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "5a570ebc-293b-4eec-a73c-6a3bfb546582",
+              "text": "Genital or Reproductive Disorder",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "d74e1752-4ec3-4b37-a22c-d1ccb549203a",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "d74e1752-4ec3-4b37-a22c-d1ccb549203a",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "42079a9c-5ef5-4683-beda-d6f5dd40f27c",
+          "questionPrompt": "In the last 5 years, has a medical professional recommended any test (other than HIV), treatment, or consultation that you have not yet completed, or are awaiting results for? ",
+          "askLabel": "incomplete-medical-care-5-years",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "8e0e42b0-8d18-4d94-bf2e-22ea44f9e0aa",
+              "text": "Yes",
+              "specialActions": [],
+              "factkeyvalue": {
+                "fact": "otherTest"
+              }
+            },
+            {
+              "answerUUID": "dd83b668-3ee4-4109-9b6b-06fc4b86e7c7",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "dd83b668-3ee4-4109-9b6b-06fc4b86e7c7",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "a34ea5b9-260f-46cb-90f2-0dcc66759945",
+          "questionPrompt": "Within the past year other than what you’ve already told us, has a medical professional recommended that you have any diagnostic tests?",
+          "askLabel": "medical-tests-other-past-year",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "23a1b78e-dff1-44f3-a736-5d10339c763b",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "32c57b3b-d4ee-40dd-ac5c-90ee78eaf7b6",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "32c57b3b-d4ee-40dd-ac5c-90ee78eaf7b6",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        },
+        {
+          "questionUUID": "15bcb4ca-3b52-4ea4-8dbb-7d78857cb263",
+          "questionPrompt": "Within the past 5 years, other than what you have already told us, have you:",
+          "askLabel": "medical-disclosures-other-5-years",
+          "askType": "CHECK_BOX",
+          "answerChoices": [
+            {
+              "answerUUID": "71449da3-c8ed-42a9-ac48-8a416ad24256",
+              "text": "Had a non-routine consultation with a medical professional?",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "bd795109-4694-469c-ac03-0e92f125ed85",
+              "text": "Been diagnosed or treated for any other condition?",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "527a1ee6-e209-4054-b22d-ded1e5256b72",
+              "text": "None of the Above",
+              "specialActions": [
+                "NONE_OF_THE_ABOVE"
+              ]
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "527a1ee6-e209-4054-b22d-ded1e5256b72",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "INSURANCE HISTORY",
+      "asks": [
+        {
+          "questionUUID": "93359d89-0cdf-4998-837e-8e3cc49e49e5",
+          "questionPrompt": "Do you have or have you applied for any other life insurance or annuities?",
+          "askLabel": "insurance-activity-ever",
+          "askType": "RADIO",
+          "answerChoices": [
+            {
+              "answerUUID": "f9484849-ef3e-4066-915d-812ccb0cf428",
+              "text": "Yes",
+              "specialActions": []
+            },
+            {
+              "answerUUID": "c14668f3-e2bf-4794-8157-e83d80e69507",
+              "text": "No",
+              "specialActions": []
+            }
+          ],
+          "answers": [
+            {
+              "answerUUID": "c14668f3-e2bf-4794-8157-e83d80e69507",
+              "value": null,
+              "metadata": {},
+              "relatedAsks": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exportMeta": {
+    "timestamp": "2021-03-11T06:42:34.110Z",
+    "type": "FULL",
+    "version": 0
+  }
+}
