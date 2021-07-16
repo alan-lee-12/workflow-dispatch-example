@@ -9,6 +9,7 @@ description: 'Print out the data in POST payload in Docker'
 #     default: '{"scenario": "default"}'
 runs:
   using: 'docker'
+    context: ../../
   image: 'Dockerfile'
 
 # Example from GH
