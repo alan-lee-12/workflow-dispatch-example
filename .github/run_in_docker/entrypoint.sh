@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd /github/workspace/backend/
-npm install
-npm run start
+cd /github/workspace/e2etests/
+yarn
+yarn run test
