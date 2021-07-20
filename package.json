@@ -1,0 +1,21 @@
+{
+  "name": "workflow-dispatch-with-payload",
+  "version": "1.0.0",
+  "description": "none",
+  "repository": "git@github.com:alan-lee-12/workflow-dispatch-example.git",
+  "author": "<alan.lee@getethos.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest on-demand"
+  },
+  "dependencies": {
+    "@actions/github": "5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.23",
+    "jest": "26.6.3",
+    "jest-circus": "26.6.3",
+    "ts-jest": "26.5.6",
+    "typescript": "4.2.4"
+  }
+}
