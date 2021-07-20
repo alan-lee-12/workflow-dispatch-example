@@ -1,5 +1,5 @@
-# FROM node:lts-alpine
-FROM node:12.18.2
+FROM node:lts-alpine
+# FROM node:12.18.2
 
 # Lines below are copied from run_tests/Dockerfile
 # WORKDIR /action
